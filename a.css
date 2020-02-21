@@ -177,9 +177,6 @@ header{
     display: none;
     padding-top: 10px;
 }
-label {
-    display: non;
-}
 .victory {
     grid-row: 9/11;
     grid-column: 5/9;
