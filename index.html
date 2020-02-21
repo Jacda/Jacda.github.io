@@ -8,6 +8,7 @@
     <script defer src = "js/a.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Catamaran&display=swap" rel="stylesheet">
     <title>NmRS</title>
+    <meta name="Description" content="Roll Simulator for ninjamanager to find out and try the chances for legendary weapon">
 </head>
 <body>
     <header class = "header">
@@ -16,14 +17,18 @@
     </header>
     <div></div>
     <div id = "container1" class = container>
-        <div class = "input1">
-            <label for="input1">Label1</label>
+        <div class = "in1">
+            <label>Choose a roll chance
             <input class = "O-input" value ="1" type="text" id = "input1">
+            </label>
         </div>
         <p class = "in">In</p>
-        <div class = "input2">
-            <input id = "input2" class = "O-input" value = "10000" type="text" disabled>
-            <label for="input2">Label2</label>
+        <div class = "in2">
+            <form>
+                <label>Can't be changed
+                <input id = "input2" class = "O-input" value = "10000" type="text" disabled>
+                </label>
+            </form>
         </div>
         <button class = "random">ROLL</button>
         <p class = "a"></p>
